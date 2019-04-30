@@ -9,12 +9,14 @@ header h1 {
 }
 
 main h2 {
+  font-family: 'Gugi', serif;
   text-align: center;
 }
 
 main p {
   border-bottom: 3px black solid;
   color: grey;
+  font-family: 'Poppins', serif;
   font-size: 1.2em;
   padding-bottom: 2.5em;
   text-align: center;
@@ -28,6 +30,7 @@ form {
 }
 
 legend {
+  font-family: 'Gugi', serif;
   font-weight: bold;
   font-size: 20px;
   margin-bottom: 1em;
@@ -42,10 +45,19 @@ select {
   background-color: #bcf2e4;
   font-size: 18px;
   line-height: 2;
-  margin: 8px 0 8px 0;
+  margin: 12px 0 12px 0;
   width: 100%;
 }
 
+#zip {
+  display: block;
+  width: 60%;
+}
+
+::placeholder  {
+  text-align: right;
+  font-size: 18px;
+}
 
 fieldset {
   border: none;
@@ -60,16 +72,37 @@ input[type="checkbox"] {
   margin-top: 15px;
 }
 
+label {
+  font-family: 'Poppins', serif;
+}
+
 .news input,
 .news label {
   display: inline-block;
 }
 
 .news-title {
+  font-size: 17px;
   margin: 10px 0;
+  padding-bottom: 2px;
+  width: 100%;
+}
+
+.lastly {
+  display: block;
+  font-size: 17px;
+  padding-top: 8px;
+}
+
+textarea {
+  margin-bottom: 10px;
 }
 
 button {
+  background-color: #2D7AB2;
+  border-radius: 6px;
+  color: white;
+  height: 40px;
   width: 100%;
 }
 
