@@ -1,0 +1,67 @@
+/*================BASE STYLES ===============*/
+
+header h1 {
+  background: #660066;
+  color: white;
+  margin-top: 0;
+  padding: .65em 0;
+  text-align: center;
+}
+
+main h2 {
+  text-align: center;
+}
+
+main p {
+  border-bottom: 3px black solid;
+  color: grey;
+  font-size: 1.2em;
+  padding-bottom: 2.5em;
+  text-align: center;
+}
+
+
+/*===========FORM==========*/
+
+legend {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+input[type="checkbox"],
+input[type="radio"],
+select {
+  background-color: #bcf2e4;
+  font-size: 18px;
+  line-height: 1.5;
+  width: 100%;
+}
+
+
+fieldset {
+  border: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+label.radio {
+  display: inline;
+}
+
+.news input,
+.news label {
+  display: inline-block;
+}
+
+
+
+/*================MEDIA QUERIES===============*/
