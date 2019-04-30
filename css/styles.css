@@ -23,6 +23,10 @@ main p {
 
 /*===========FORM==========*/
 
+form {
+  max-width: 300px;
+}
+
 legend {
   font-weight: bold;
   font-size: 20px;
@@ -32,14 +36,13 @@ legend {
 
 input[type="text"],
 input[type="email"],
-input[type="number"],
 input[type="tel"],
-input[type="checkbox"],
-input[type="radio"],
 select {
+  background: yellow;
   background-color: #bcf2e4;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 2;
+  margin: 8px 0 8px 0;
   width: 100%;
 }
 
@@ -53,13 +56,21 @@ input[type="checkbox"] {
   margin: 0 4px 8px 0;
 }
 
-label.radio {
-  display: inline;
+#html {
+  margin-top: 15px;
 }
 
 .news input,
 .news label {
   display: inline-block;
+}
+
+.news-title {
+  margin: 10px 0;
+}
+
+button {
+  width: 100%;
 }
 
 
