@@ -50,7 +50,7 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 select {
-  background: yellow;
+  background: #18174A;
   background-color: #bcf2e4;
   font-size: 18px;
   line-height: 2;
@@ -134,10 +134,11 @@ label {
 }
 
 .radio-b {
-  padding-bottom: 1em; 
+  padding-bottom: 1em;
 }
 
 textarea {
+  background-color: #bcf2e4;
   height: 80px;
   margin-bottom: 10px;
   width: 100%;
