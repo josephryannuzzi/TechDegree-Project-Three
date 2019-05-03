@@ -182,7 +182,7 @@ button:hover {
 input[type]:focus,
 select:focus,
 input[type]:hover,
-select:hover
+select:hover,
 textarea:focus,
 textarea:hover {
   border-color: #707BE7;
@@ -191,11 +191,18 @@ textarea:hover {
 textarea:hover {
   height: 100px;
 }
+
+input[type="checkbox"]:checked + label,
+input[type="radio"]:checked + label {
+  border: blue;
+  font-weight: bold;
+}
 /*================MEDIA QUERIES===============*/
 
 @media (min-width: 768px) {
 
 .leg-one {
+  margin-left: 2em;
   padding-top: 1.5em;
 }
 
