@@ -53,6 +53,7 @@ input[type="tel"],
 select {
   background: #18174A;
   background-color: #bcf2e4;
+  font-family: 'Poppins', serif;
   font-size: 18px;
   line-height: 2;
   margin: 12px 0 12px 0;
@@ -146,6 +147,7 @@ textarea {
   -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
   background-color: #bcf2e4;
+  font-family: 'Poppins', serif;
   height: 80px;
   margin-bottom: 10px;
   transition: height 2s;
@@ -160,6 +162,10 @@ button {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
 footer p {
   background: #660066;
   margin-bottom: 0;
@@ -168,7 +174,6 @@ footer p {
   padding-top: .75em;
   font-family: 'Akronim', serif;
   font-size: 20px;
-  color: white;
 }
 
 /*========================
@@ -202,7 +207,6 @@ input[type="radio"]:checked + label {
 @media (min-width: 768px) {
 
 .leg-one {
-  margin-left: 2em;
   padding-top: 1.5em;
 }
 
