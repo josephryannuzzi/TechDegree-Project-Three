@@ -3,6 +3,7 @@
 header h1 {
   background: #660066;
   color: white;
+  font-family: 'Akronim', serif;
   margin-top: 0;
   padding: .65em 0;
   text-align: center;
@@ -141,9 +142,13 @@ label {
 }
 
 textarea {
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
   background-color: #bcf2e4;
   height: 80px;
   margin-bottom: 10px;
+  transition: height 2s;
   width: 100%;
 }
 
@@ -156,11 +161,36 @@ button {
 }
 
 footer p {
+  background: #660066;
+  margin-bottom: 0;
   text-align: center;
+  height: 30px;
+  padding-top: .75em;
+  font-family: 'Akronim', serif;
+  font-size: 20px;
+  color: white;
 }
 
+/*========================
+      Pseudo Class
+========================*/
 
+button:hover {
+  background-color: #4a96ce;
+}
 
+input[type]:focus,
+select:focus,
+input[type]:hover,
+select:hover
+textarea:focus,
+textarea:hover {
+  border-color: #707BE7;
+}
+
+textarea:hover {
+  height: 100px;
+}
 /*================MEDIA QUERIES===============*/
 
 @media (min-width: 768px) {
@@ -203,3 +233,15 @@ footer p {
   label.zipL {
     flex-basis: 25%
   }
+
+  textarea {
+    height: 175px;
+  }
+
+/*=======
+Media query pseudo classes
+=====*/
+
+textarea:hover {
+  height: 200px;
+}
