@@ -93,6 +93,7 @@ input[type="checkbox"] {
 }
 
 label {
+  font-size: 16px;
   font-family: 'Poppins', serif;
 }
 
@@ -210,18 +211,23 @@ input[type="radio"]:checked + label {
   padding-top: 1.5em;
 }
 
+label {
+  font-size: 18px;
+}
+
   form {
     width: 75%;
     justify-content: space-between;
-    margin: auto;
+    margin: 0 auto;
   }
 
   .info input,
-  select {
+   select {
     flex-basis: 75%;
   }
 
-  .info label {
+  .info label,
+  select + label {
     margin: auto;
     margin-left: 0;
   }
